@@ -14,7 +14,7 @@ image_resizing_scale = 0.2;
 %   set parameters for the neural network
 parameter_set.W_e = 2;
 parameter_set.W_i = 140;
-parameter_set.Sigma_L = 3.2;
+parameter_set.Sigma_L = 6.4;
 parameter_set.Beta = 15;
 parameter_set.baseline_activity = 0;
 parameter_set.fraction_of_reducing_synaptic_connections = 0;
