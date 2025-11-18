@@ -1,3 +1,6 @@
+% Script for modeling and simulations presented in Fujita Y. et al. 2025.
+% (https://doi.org/10.3389/fnins.2025.1614468)
+
 function [output] = prepareVisualStimulus(image_filename, image_resizing_scale)
 
 loaded_image = imread(image_filename);

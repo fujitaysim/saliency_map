@@ -1,3 +1,8 @@
+% Script for modeling and simulations presented in Fujita Y. et al. 2025.
+% (https://doi.org/10.3389/fnins.2025.1614468)
+
+% Defines properties and methods for feature extraction.
+
 classdef FeatureExtractionClass < handle
   
     properties

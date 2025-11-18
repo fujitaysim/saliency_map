@@ -1,3 +1,9 @@
+% Script for modeling and simulations presented in Fujita Y. et al. 2025.
+% (https://doi.org/10.3389/fnins.2025.1614468)
+
+% This function computes a saliency map from a given input image
+% using a specified set of parameters.
+
 function [outputSaliencyMap] = calculateSaliencyMap(visual_stimulus, parameter_set)
 
 % feature extraction

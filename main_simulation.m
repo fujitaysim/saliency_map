@@ -1,3 +1,6 @@
+% Script for modeling and simulations presented in Fujita Y. et al. 2025.
+% (https://doi.org/10.3389/fnins.2025.1614468)
+
 % This script calculates and visualizes a saliency map from a given image.
 % Make sure that all required function and class files are located in the working directory 
 % or in a directory included in the MATLAB path.

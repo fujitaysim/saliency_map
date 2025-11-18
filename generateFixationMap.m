@@ -1,6 +1,9 @@
-function [output_fixation_map] = generateFixationMap(saliency_map, number_of_fixation_points_to_generate)
+% Script for modeling and simulations presented in Fujita Y. et al. 2025.
+% (https://doi.org/10.3389/fnins.2025.1614468)
 
 % artificially generating fixation points from a saliency map
+
+function [output_fixation_map] = generateFixationMap(saliency_map, number_of_fixation_points_to_generate)
 
 saliencymap_for_generating_fixation = saliency_map;
 height = size(saliency_map, 1);
